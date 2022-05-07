@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.container__header, .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__header{
+    margin: 35px auto 0;
+}
+
+.logo__img{
+    max-width: 20px;
+}
+
+.nav__li{
+    display: inline-block;
+}
+
+.nav__link{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B8BECD;
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.nav__link-active{
+    color: black;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.button-container__button{
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 132px;
+    height: 44px;
+    background: #FB8F1D;
+    color: white;
+}
+
+.button-container__button-transporent{
+    background: white;
+    color: #FB8F1D;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    width: 247px;
+    margin-top: 37px;
+}
+
+.text__p{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    mix-blend-mode: normal;
+}
+
+.text__hr{
+    width: 92px;
+    height: 5px;
+    background: #0F0B0B;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+.input{
+    margin-top: 52px;
+}
+
+.input__input{
+    width: 412px;
+    height: 59px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.input__input:last-child{
+    margin-top: 25px;
+}
+
+.input__input::placeholder{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    padding-left: 29px;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+.button__button{
+    width: 158px;
+    height: 59px;
+    background: #1ABE84;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.block-right{
+    position: relative;
+    margin-top: 156px;
+}
+
+.wrapper-one, .wrapper-two{
+    display: inline-block;
+}
+
+.wrapper-one__img{
+    margin-right: 55px;
+}
+
+.wrapper-one__p, .wrapper-two__p{
+    position: absolute;
+    width: 152px;
+    height: 63px;
+    white-space: nowrap;
+    background-color: white;
+    color: #000000;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 0px 10px;
+    padding: 20px 14px;
+    bottom: 0px;
+}
