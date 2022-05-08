@@ -128,20 +128,20 @@
     line-height: 20px;
 }
 
-.block-right{
+.sidebar{
     position: relative;
     margin-top: 156px;
 }
 
-.wrapper-one, .wrapper-two{
+.wrap, .block{
     display: inline-block;
 }
 
-.wrapper-one__img{
+.wrap__img{
     margin-right: 55px;
 }
 
-.wrapper-one__p, .wrapper-two__p{
+.wrap__p, .block__p{
     position: absolute;
     width: 152px;
     height: 63px;
