@@ -133,15 +133,15 @@
     margin-top: 156px;
 }
 
-.wrap, .block{
+.sidebar-wrap, .sidebar-block{
     display: inline-block;
 }
 
-.wrap__img{
+.sidebar-wrap__img{
     margin-right: 55px;
 }
 
-.wrap__p, .block__p{
+.sidebar-wrap__p, .sidebar-block__p{
     position: absolute;
     width: 152px;
     height: 63px;
